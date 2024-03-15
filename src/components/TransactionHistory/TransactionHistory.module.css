@@ -1,0 +1,31 @@
+.transaction-table {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 16px;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 8px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.transaction-table tbody tr:nth-child(even) {
+  background-color: #bababa;
+}
+
+.transaction-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.table-title {
+  background-color: rgb(34, 32, 32);
+  color: #fff;
+}
+
+.type-text {
+  text-transform: capitalize;
+}

@@ -3,10 +3,10 @@ import css from "./FriendList.module.css";
 
 const FriendList = ({ friends }) => {
   return (
-    <ul>
+    <ul className={css["friend-list"]}>
       {friends.map((friend) => {
         return (
-          <li key={friend.id}>
+          <li className={css["friend-list-item"]} key={friend.id}>
             <FriendListItem
               avatar={friend.avatar}
               name={friend.name}

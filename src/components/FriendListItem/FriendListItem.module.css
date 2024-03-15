@@ -1,0 +1,11 @@
+.is-online {
+  color: green;
+}
+
+.is-offline {
+  color: red;
+}
+
+.friend-avatar-image {
+  margin-top: 10px;
+}
